@@ -271,7 +271,7 @@ export default function Home() {
       </section>
 
       {/* Pricing Section */}
-      <section className="py-20 bg-[#0a0a0a] border-b border-[#2d2f47]">
+      <section className="py-20 bg-[#0f0f1a] border-b border-[#2d2f47]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-4xl font-heading font-bold text-white mb-4">
@@ -322,7 +322,7 @@ export default function Home() {
             <div className="text-center">
               <a
                 href="#contact"
-                className="inline-block bg-[#8b5cf6] hover:bg-[#a78bfa] text-white px-10 py-4 rounded-lg text-lg font-semibold transition-all duration-300 shadow-xl shadow-[#8b5cf6]/20 hover:shadow-2xl hover:shadow-[#8b5cf6]/30 hover:scale-105"
+                className="inline-block bg-gradient-to-r from-[#8b5cf6] to-[#3b82f6] hover:from-[#a78bfa] hover:to-[#60a5fa] text-white px-10 py-4 rounded-lg text-lg font-semibold transition-all duration-300 shadow-xl shadow-[#8b5cf6]/20 hover:shadow-2xl hover:shadow-[#8b5cf6]/30 hover:scale-105"
               >
                 Get Exact Pricing on Your Free Call
               </a>
@@ -387,7 +387,7 @@ export default function Home() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-[#0a0a0a] border-b border-[#2d2f47]">
+      <section className="py-20 bg-[#0f0f1a] border-b border-[#2d2f47]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-4xl font-heading font-bold text-white mb-4">
@@ -512,7 +512,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#0a0a0a] text-white py-16">
+      <footer className="bg-[#0f0f1a] text-white py-16">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <div className="text-3xl font-heading font-bold mb-6">
