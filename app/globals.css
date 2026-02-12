@@ -5,12 +5,15 @@
 @tailwind utilities;
 
 :root {
-  --background: #0a0a0a;
-  --foreground: #f5f5f5;
-  --card-bg: #1a1a1a;
-  --border: #2a2a2a;
-  --accent: #ff6b35;
-  --accent-hover: #ff8555;
+  --background: #0f0f1a;
+  --foreground: #e5e7eb;
+  --card-bg: #1a1b2e;
+  --border: #2d2f47;
+  --accent: #8b5cf6;
+  --accent-hover: #a78bfa;
+  --accent-secondary: #3b82f6;
+  --gradient-from: #8b5cf6;
+  --gradient-to: #3b82f6;
 }
 
 body {

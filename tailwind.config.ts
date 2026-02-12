@@ -15,6 +15,9 @@ const config: Config = {
         'border-color': "var(--border)",
         'accent': "var(--accent)",
         'accent-hover': "var(--accent-hover)",
+        'accent-secondary': "var(--accent-secondary)",
+        'gradient-from': "var(--gradient-from)",
+        'gradient-to': "var(--gradient-to)",
       },
       fontFamily: {
         'sans': ['Inter', 'system-ui', 'sans-serif'],

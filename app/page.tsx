@@ -1,8 +1,8 @@
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#0a0a0a]">
+    <div className="min-h-screen bg-[#0f0f1a]">
       {/* Navigation */}
-      <nav className="bg-[#0a0a0a]/95 backdrop-blur-sm border-b border-[#2a2a2a] sticky top-0 z-50">
+      <nav className="bg-[#0f0f1a]/95 backdrop-blur-sm border-b border-[#2d2f47] sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-5">
           <div className="flex justify-between items-center">
             <div className="text-2xl font-heading font-bold text-white tracking-tight">
@@ -10,7 +10,7 @@ export default function Home() {
             </div>
             <a
               href="#contact"
-              className="bg-[#ff6b35] hover:bg-[#ff8555] text-white px-6 py-2.5 rounded-lg text-sm font-semibold transition-all duration-300 shadow-lg shadow-[#ff6b35]/20 hover:shadow-xl hover:shadow-[#ff6b35]/30"
+              className="bg-gradient-to-r from-[#8b5cf6] to-[#3b82f6] hover:from-[#a78bfa] hover:to-[#60a5fa] text-white px-6 py-2.5 rounded-lg text-sm font-semibold transition-all duration-300 shadow-lg shadow-[#8b5cf6]/20 hover:shadow-xl hover:shadow-[#8b5cf6]/30"
             >
               Book Your Free Call
             </a>
@@ -19,12 +19,12 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="bg-[#0a0a0a] py-20 border-b border-[#2a2a2a]">
+      <section className="bg-[#0f0f1a] py-20 border-b border-[#2d2f47]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-5xl md:text-6xl font-heading font-extrabold text-white mb-6 leading-tight tracking-tight">
               Stop Leaving Money on the Table.<br />
-              <span className="text-[#ff6b35]">Turn Your Expertise Into Revenue.</span>
+              <span className="bg-gradient-to-r from-[#8b5cf6] to-[#3b82f6] bg-clip-text text-transparent">Turn Your Expertise Into Revenue.</span>
             </h1>
             <p className="text-xl text-gray-300 mb-6 leading-relaxed font-light">
               You've built an audience. You know your stuff. But you're still trading hours for dollars and wondering when it gets easier.
@@ -34,7 +34,7 @@ export default function Home() {
             </p>
             <a
               href="#contact"
-              className="inline-block bg-[#ff6b35] hover:bg-[#ff8555] text-white px-10 py-4 rounded-lg text-lg font-semibold transition-all duration-300 shadow-xl shadow-[#ff6b35]/20 hover:shadow-2xl hover:shadow-[#ff6b35]/30 hover:scale-105"
+              className="inline-block bg-gradient-to-r from-[#8b5cf6] to-[#3b82f6] hover:from-[#a78bfa] hover:to-[#60a5fa] text-white px-10 py-4 rounded-lg text-lg font-semibold transition-all duration-300 shadow-xl shadow-[#8b5cf6]/20 hover:shadow-2xl hover:shadow-[#8b5cf6]/30 hover:scale-105"
             >
               Let's Build Your Business (Free Strategy Call)
             </a>
@@ -46,7 +46,7 @@ export default function Home() {
       </section>
 
       {/* Who This Is For */}
-      <section className="py-20 bg-[#0f0f0f] border-b border-[#2a2a2a]">
+      <section className="py-20 bg-[#14141f] border-b border-[#2d2f47]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-4xl font-heading font-bold text-white mb-4">
@@ -54,30 +54,30 @@ export default function Home() {
             </h2>
           </div>
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            <div className="bg-[#1a1a1a] p-8 border border-[#2a2a2a] rounded-xl hover:border-[#ff6b35]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#ff6b35]/10">
+            <div className="bg-[#1a1b2e] p-8 border border-[#2d2f47] rounded-xl hover:border-[#8b5cf6]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#8b5cf6]/10">
               <h3 className="text-base font-semibold text-white mb-3">
-                <span className="text-[#ff6b35] text-lg mr-2">✓</span>
+                <span className="text-[#8b5cf6] text-lg mr-2">✓</span>
                 You're a fitness, nutrition, yoga, or biohacking coach
               </h3>
               <p className="text-sm text-gray-400 leading-relaxed">You've already got the expertise. You just need help turning it into scalable income.</p>
             </div>
-            <div className="bg-[#1a1a1a] p-8 border border-[#2a2a2a] rounded-xl hover:border-[#ff6b35]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#ff6b35]/10">
+            <div className="bg-[#1a1b2e] p-8 border border-[#2d2f47] rounded-xl hover:border-[#8b5cf6]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#8b5cf6]/10">
               <h3 className="text-base font-semibold text-white mb-3">
-                <span className="text-[#ff6b35] text-lg mr-2">✓</span>
+                <span className="text-[#8b5cf6] text-lg mr-2">✓</span>
                 You've got an audience (even a small one)
               </h3>
               <p className="text-sm text-gray-400 leading-relaxed">500 followers? 5,000? Doesn't matter. We'll help you monetize what you've already built.</p>
             </div>
-            <div className="bg-[#1a1a1a] p-8 border border-[#2a2a2a] rounded-xl hover:border-[#ff6b35]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#ff6b35]/10">
+            <div className="bg-[#1a1b2e] p-8 border border-[#2d2f47] rounded-xl hover:border-[#8b5cf6]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#8b5cf6]/10">
               <h3 className="text-base font-semibold text-white mb-3">
-                <span className="text-[#ff6b35] text-lg mr-2">✓</span>
+                <span className="text-[#8b5cf6] text-lg mr-2">✓</span>
                 You're tired of one-off sessions
               </h3>
               <p className="text-sm text-gray-400 leading-relaxed">Trading time for money has a ceiling. Let's break through it with leveraged offers.</p>
             </div>
-            <div className="bg-[#1a1a1a] p-8 border border-[#2a2a2a] rounded-xl hover:border-[#ff6b35]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#ff6b35]/10">
+            <div className="bg-[#1a1b2e] p-8 border border-[#2d2f47] rounded-xl hover:border-[#8b5cf6]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#8b5cf6]/10">
               <h3 className="text-base font-semibold text-white mb-3">
-                <span className="text-[#ff6b35] text-lg mr-2">✓</span>
+                <span className="text-[#8b5cf6] text-lg mr-2">✓</span>
                 You're ready to scale
               </h3>
               <p className="text-sm text-gray-400 leading-relaxed">You want a business that grows your income without demanding more of your time.</p>
@@ -87,7 +87,7 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="py-20 bg-[#0a0a0a] border-b border-[#2a2a2a]">
+      <section className="py-20 bg-[#0f0f1a] border-b border-[#2d2f47]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-4xl font-heading font-bold text-white mb-4">
@@ -99,7 +99,7 @@ export default function Home() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-[#1a1a1a] p-8 border border-[#2a2a2a] rounded-xl hover:border-[#ff6b35]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#ff6b35]/10 group">
+            <div className="bg-[#1a1b2e] p-8 border border-[#2d2f47] rounded-xl hover:border-[#8b5cf6]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#8b5cf6]/10 group">
               <div className="mb-6">
                 <span className="text-5xl">🎯</span>
               </div>
@@ -111,21 +111,21 @@ export default function Home() {
               </p>
               <ul className="space-y-3 text-sm text-gray-500">
                 <li className="flex items-start">
-                  <span className="text-[#ff6b35] mr-2">•</span>
+                  <span className="text-[#8b5cf6] mr-2">•</span>
                   <span>Market gap analysis</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#ff6b35] mr-2">•</span>
+                  <span className="text-[#8b5cf6] mr-2">•</span>
                   <span>Competitor research</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#ff6b35] mr-2">•</span>
+                  <span className="text-[#8b5cf6] mr-2">•</span>
                   <span>Positioning strategy</span>
                 </li>
               </ul>
             </div>
 
-            <div className="bg-[#1a1a1a] p-8 border border-[#2a2a2a] rounded-xl hover:border-[#ff6b35]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#ff6b35]/10 group">
+            <div className="bg-[#1a1b2e] p-8 border border-[#2d2f47] rounded-xl hover:border-[#8b5cf6]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#8b5cf6]/10 group">
               <div className="mb-6">
                 <span className="text-5xl">💎</span>
               </div>
@@ -137,21 +137,21 @@ export default function Home() {
               </p>
               <ul className="space-y-3 text-sm text-gray-500">
                 <li className="flex items-start">
-                  <span className="text-[#ff6b35] mr-2">•</span>
+                  <span className="text-[#8b5cf6] mr-2">•</span>
                   <span>Offer structuring & pricing</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#ff6b35] mr-2">•</span>
+                  <span className="text-[#8b5cf6] mr-2">•</span>
                   <span>Value ladder design</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#ff6b35] mr-2">•</span>
+                  <span className="text-[#8b5cf6] mr-2">•</span>
                   <span>Sales page copywriting</span>
                 </li>
               </ul>
             </div>
 
-            <div className="bg-[#1a1a1a] p-8 border border-[#2a2a2a] rounded-xl hover:border-[#ff6b35]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#ff6b35]/10 group">
+            <div className="bg-[#1a1b2e] p-8 border border-[#2d2f47] rounded-xl hover:border-[#8b5cf6]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#8b5cf6]/10 group">
               <div className="mb-6">
                 <span className="text-5xl">🚀</span>
               </div>
@@ -163,19 +163,19 @@ export default function Home() {
               </p>
               <ul className="space-y-3 text-sm text-gray-500">
                 <li className="flex items-start">
-                  <span className="text-[#ff6b35] mr-2">•</span>
+                  <span className="text-[#8b5cf6] mr-2">•</span>
                   <span>Online courses & programs</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#ff6b35] mr-2">•</span>
+                  <span className="text-[#8b5cf6] mr-2">•</span>
                   <span>Private communities</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#ff6b35] mr-2">•</span>
+                  <span className="text-[#8b5cf6] mr-2">•</span>
                   <span>1:1 coaching & workshops</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#ff6b35] mr-2">•</span>
+                  <span className="text-[#8b5cf6] mr-2">•</span>
                   <span>Group coaching sessions</span>
                 </li>
               </ul>
@@ -185,7 +185,7 @@ export default function Home() {
       </section>
 
       {/* Process Section */}
-      <section className="py-20 bg-[#0f0f0f] border-b border-[#2a2a2a]">
+      <section className="py-20 bg-[#14141f] border-b border-[#2d2f47]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-4xl font-heading font-bold text-white mb-4">
@@ -197,9 +197,9 @@ export default function Home() {
           </div>
 
           <div className="max-w-4xl mx-auto space-y-6">
-            <div className="bg-[#1a1a1a] p-8 border border-[#2a2a2a] rounded-xl hover:border-[#ff6b35]/50 transition-all duration-300">
+            <div className="bg-[#1a1b2e] p-8 border border-[#2d2f47] rounded-xl hover:border-[#8b5cf6]/50 transition-all duration-300">
               <div className="flex gap-6 items-start">
-                <div className="flex-shrink-0 text-lg font-bold text-[#ff6b35] font-heading">
+                <div className="flex-shrink-0 text-lg font-bold text-[#8b5cf6] font-heading">
                   Week 1:
                 </div>
                 <div className="flex-1">
@@ -211,9 +211,9 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-[#1a1a1a] p-8 border border-[#2a2a2a] rounded-xl hover:border-[#ff6b35]/50 transition-all duration-300">
+            <div className="bg-[#1a1b2e] p-8 border border-[#2d2f47] rounded-xl hover:border-[#8b5cf6]/50 transition-all duration-300">
               <div className="flex gap-6 items-start">
-                <div className="flex-shrink-0 text-lg font-bold text-[#ff6b35] font-heading">
+                <div className="flex-shrink-0 text-lg font-bold text-[#8b5cf6] font-heading">
                   Week 2-3:
                 </div>
                 <div className="flex-1">
@@ -225,9 +225,9 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-[#1a1a1a] p-8 border border-[#2a2a2a] rounded-xl hover:border-[#ff6b35]/50 transition-all duration-300">
+            <div className="bg-[#1a1b2e] p-8 border border-[#2d2f47] rounded-xl hover:border-[#8b5cf6]/50 transition-all duration-300">
               <div className="flex gap-6 items-start">
-                <div className="flex-shrink-0 text-lg font-bold text-[#ff6b35] font-heading">
+                <div className="flex-shrink-0 text-lg font-bold text-[#8b5cf6] font-heading">
                   Week 4-5:
                 </div>
                 <div className="flex-1">
@@ -239,9 +239,9 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-[#1a1a1a] p-8 border border-[#2a2a2a] rounded-xl hover:border-[#ff6b35]/50 transition-all duration-300">
+            <div className="bg-[#1a1b2e] p-8 border border-[#2d2f47] rounded-xl hover:border-[#8b5cf6]/50 transition-all duration-300">
               <div className="flex gap-6 items-start">
-                <div className="flex-shrink-0 text-lg font-bold text-[#ff6b35] font-heading">
+                <div className="flex-shrink-0 text-lg font-bold text-[#8b5cf6] font-heading">
                   Week 6-7:
                 </div>
                 <div className="flex-1">
@@ -253,9 +253,9 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-[#1a1a1a] p-8 border border-[#2a2a2a] rounded-xl hover:border-[#ff6b35]/50 transition-all duration-300">
+            <div className="bg-[#1a1b2e] p-8 border border-[#2d2f47] rounded-xl hover:border-[#8b5cf6]/50 transition-all duration-300">
               <div className="flex gap-6 items-start">
-                <div className="flex-shrink-0 text-lg font-bold text-[#ff6b35] font-heading">
+                <div className="flex-shrink-0 text-lg font-bold text-[#8b5cf6] font-heading">
                   Week 8+:
                 </div>
                 <div className="flex-1">
@@ -271,7 +271,7 @@ export default function Home() {
       </section>
 
       {/* Pricing Section */}
-      <section className="py-20 bg-[#0a0a0a] border-b border-[#2a2a2a]">
+      <section className="py-20 bg-[#0a0a0a] border-b border-[#2d2f47]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-4xl font-heading font-bold text-white mb-4">
@@ -282,27 +282,27 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="max-w-3xl mx-auto bg-[#1a1a1a] border border-[#2a2a2a] p-10 rounded-xl">
+          <div className="max-w-3xl mx-auto bg-[#1a1b2e] border border-[#2d2f47] p-10 rounded-xl">
             <div className="text-center mb-10">
               <h3 className="text-2xl font-heading font-bold text-white mb-2">Investment Structure</h3>
             </div>
 
             <div className="space-y-6 mb-10">
-              <div className="border border-[#2a2a2a] p-6 rounded-lg bg-[#0f0f0f]">
+              <div className="border border-[#2d2f47] p-6 rounded-lg bg-[#14141f]">
                 <h4 className="text-lg font-heading font-bold text-white mb-3">Setup Fee</h4>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   One-time investment to build your entire coaching ecosystem. This covers niche identification, offer creation, tech setup, and launch strategy.
                 </p>
               </div>
 
-              <div className="border border-[#2a2a2a] p-6 rounded-lg bg-[#0f0f0f]">
+              <div className="border border-[#2d2f47] p-6 rounded-lg bg-[#14141f]">
                 <h4 className="text-lg font-heading font-bold text-white mb-3">Revenue Share</h4>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   We take a small percentage of your revenue as you grow. When you make money, we make money. Our interests are completely aligned.
                 </p>
               </div>
 
-              <div className="border border-[#2a2a2a] p-6 rounded-lg bg-[#0f0f0f]">
+              <div className="border border-[#2d2f47] p-6 rounded-lg bg-[#14141f]">
                 <h4 className="text-lg font-heading font-bold text-white mb-3">100% ROI Guarantee</h4>
                 <p className="text-sm text-gray-400 leading-relaxed">
                   If you don't at least double your investment within the first 90 days, we'll keep working with you for free until you do. Period.
@@ -310,7 +310,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-[#ff6b35]/10 border border-[#ff6b35]/30 p-8 mb-10 rounded-lg">
+            <div className="bg-[#8b5cf6]/10 border border-[#8b5cf6]/30 p-8 mb-10 rounded-lg">
               <p className="text-center text-base font-semibold text-white mb-3">
                 Here's the truth:
               </p>
@@ -322,7 +322,7 @@ export default function Home() {
             <div className="text-center">
               <a
                 href="#contact"
-                className="inline-block bg-[#ff6b35] hover:bg-[#ff8555] text-white px-10 py-4 rounded-lg text-lg font-semibold transition-all duration-300 shadow-xl shadow-[#ff6b35]/20 hover:shadow-2xl hover:shadow-[#ff6b35]/30 hover:scale-105"
+                className="inline-block bg-[#8b5cf6] hover:bg-[#a78bfa] text-white px-10 py-4 rounded-lg text-lg font-semibold transition-all duration-300 shadow-xl shadow-[#8b5cf6]/20 hover:shadow-2xl hover:shadow-[#8b5cf6]/30 hover:scale-105"
               >
                 Get Exact Pricing on Your Free Call
               </a>
@@ -332,7 +332,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-20 bg-[#0f0f0f] border-b border-[#2a2a2a]">
+      <section className="py-20 bg-[#14141f] border-b border-[#2d2f47]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-4xl font-heading font-bold text-white mb-4">
@@ -344,40 +344,40 @@ export default function Home() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-[#1a1a1a] p-8 border border-[#2a2a2a] rounded-xl hover:border-[#ff6b35]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#ff6b35]/10">
+            <div className="bg-[#1a1b2e] p-8 border border-[#2d2f47] rounded-xl hover:border-[#8b5cf6]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#8b5cf6]/10">
               <div className="mb-6">
-                <div className="flex text-[#ff6b35] text-lg mb-3">★★★★★</div>
+                <div className="flex text-[#8b5cf6] text-lg mb-3">★★★★★</div>
               </div>
               <p className="text-sm text-gray-300 mb-6 italic leading-relaxed">
                 "I went from making $3k/month doing 1:1 sessions to $15k/month with a course, community, and group program. My income tripled while I cut my hours in half."
               </p>
-              <div className="border-t border-[#2a2a2a] pt-5">
+              <div className="border-t border-[#2d2f47] pt-5">
                 <p className="font-semibold text-white text-sm mb-1">Sarah M.</p>
                 <p className="text-xs text-gray-500">Nutrition Coach, Portland</p>
               </div>
             </div>
 
-            <div className="bg-[#1a1a1a] p-8 border border-[#2a2a2a] rounded-xl hover:border-[#ff6b35]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#ff6b35]/10">
+            <div className="bg-[#1a1b2e] p-8 border border-[#2d2f47] rounded-xl hover:border-[#8b5cf6]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#8b5cf6]/10">
               <div className="mb-6">
-                <div className="flex text-[#ff6b35] text-lg mb-3">★★★★★</div>
+                <div className="flex text-[#8b5cf6] text-lg mb-3">★★★★★</div>
               </div>
               <p className="text-sm text-gray-300 mb-6 italic leading-relaxed">
                 "Before this, I had no idea what to charge or how to structure my offers. Now I've got a waiting list and I'm booked 3 months out. The ROI was insane—made my investment back in the first launch."
               </p>
-              <div className="border-t border-[#2a2a2a] pt-5">
+              <div className="border-t border-[#2d2f47] pt-5">
                 <p className="font-semibold text-white text-sm mb-1">Marcus T.</p>
                 <p className="text-xs text-gray-500">Fitness Coach, Miami</p>
               </div>
             </div>
 
-            <div className="bg-[#1a1a1a] p-8 border border-[#2a2a2a] rounded-xl hover:border-[#ff6b35]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#ff6b35]/10">
+            <div className="bg-[#1a1b2e] p-8 border border-[#2d2f47] rounded-xl hover:border-[#8b5cf6]/50 transition-all duration-300 hover:shadow-xl hover:shadow-[#8b5cf6]/10">
               <div className="mb-6">
-                <div className="flex text-[#ff6b35] text-lg mb-3">★★★★★</div>
+                <div className="flex text-[#8b5cf6] text-lg mb-3">★★★★★</div>
               </div>
               <p className="text-sm text-gray-300 mb-6 italic leading-relaxed">
                 "I was overwhelmed trying to do everything myself. They handled the tech, the strategy, everything. 6 weeks later I launched my first course and made $12k. Still can't believe it."
               </p>
-              <div className="border-t border-[#2a2a2a] pt-5">
+              <div className="border-t border-[#2d2f47] pt-5">
                 <p className="font-semibold text-white text-sm mb-1">Jessica L.</p>
                 <p className="text-xs text-gray-500">Yoga Instructor, Austin</p>
               </div>
@@ -387,7 +387,7 @@ export default function Home() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-20 bg-[#0a0a0a] border-b border-[#2a2a2a]">
+      <section className="py-20 bg-[#0a0a0a] border-b border-[#2d2f47]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-4xl font-heading font-bold text-white mb-4">
@@ -396,7 +396,7 @@ export default function Home() {
           </div>
 
           <div className="space-y-5">
-            <div className="bg-[#1a1a1a] p-8 border border-[#2a2a2a] rounded-xl hover:border-[#ff6b35]/50 transition-all duration-300">
+            <div className="bg-[#1a1b2e] p-8 border border-[#2d2f47] rounded-xl hover:border-[#8b5cf6]/50 transition-all duration-300">
               <h3 className="text-base font-semibold text-white mb-3">
                 Q: What if I don't have a big audience yet?
               </h3>
@@ -405,7 +405,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-[#1a1a1a] p-8 border border-[#2a2a2a] rounded-xl hover:border-[#ff6b35]/50 transition-all duration-300">
+            <div className="bg-[#1a1b2e] p-8 border border-[#2d2f47] rounded-xl hover:border-[#8b5cf6]/50 transition-all duration-300">
               <h3 className="text-base font-semibold text-white mb-3">
                 Q: How is this different from other coaching programs?
               </h3>
@@ -414,7 +414,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-[#1a1a1a] p-8 border border-[#2a2a2a] rounded-xl hover:border-[#ff6b35]/50 transition-all duration-300">
+            <div className="bg-[#1a1b2e] p-8 border border-[#2d2f47] rounded-xl hover:border-[#8b5cf6]/50 transition-all duration-300">
               <h3 className="text-base font-semibold text-white mb-3">
                 Q: What if I'm not tech-savvy?
               </h3>
@@ -423,7 +423,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-[#1a1a1a] p-8 border border-[#2a2a2a] rounded-xl hover:border-[#ff6b35]/50 transition-all duration-300">
+            <div className="bg-[#1a1b2e] p-8 border border-[#2d2f47] rounded-xl hover:border-[#8b5cf6]/50 transition-all duration-300">
               <h3 className="text-base font-semibold text-white mb-3">
                 Q: How long before I see results?
               </h3>
@@ -432,7 +432,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-[#1a1a1a] p-8 border border-[#2a2a2a] rounded-xl hover:border-[#ff6b35]/50 transition-all duration-300">
+            <div className="bg-[#1a1b2e] p-8 border border-[#2d2f47] rounded-xl hover:border-[#8b5cf6]/50 transition-all duration-300">
               <h3 className="text-base font-semibold text-white mb-3">
                 Q: What exactly is included in the setup?
               </h3>
@@ -441,7 +441,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-[#1a1a1a] p-8 border border-[#2a2a2a] rounded-xl hover:border-[#ff6b35]/50 transition-all duration-300">
+            <div className="bg-[#1a1b2e] p-8 border border-[#2d2f47] rounded-xl hover:border-[#8b5cf6]/50 transition-all duration-300">
               <h3 className="text-base font-semibold text-white mb-3">
                 Q: Do you work with coaches outside of fitness/nutrition/yoga?
               </h3>
@@ -454,7 +454,7 @@ export default function Home() {
       </section>
 
       {/* Final CTA Section */}
-      <section id="contact" className="py-20 bg-[#0f0f0f] border-b border-[#2a2a2a]">
+      <section id="contact" className="py-20 bg-[#14141f] border-b border-[#2d2f47]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-heading font-bold text-white mb-6">
             Ready to Stop Leaving Money on the Table?
@@ -466,25 +466,25 @@ export default function Home() {
             No pressure. No sales pitch. Just a straight conversation about whether this is right for you.
           </p>
 
-          <div className="bg-[#1a1a1a] text-white p-10 border border-[#2a2a2a] max-w-lg mx-auto rounded-xl">
+          <div className="bg-[#1a1b2e] text-white p-10 border border-[#2d2f47] max-w-lg mx-auto rounded-xl">
             <h3 className="text-2xl font-heading font-bold mb-8 text-white">Book Your Free Strategy Call</h3>
             <form className="space-y-5">
               <input
                 type="text"
                 placeholder="Your Name"
-                className="w-full px-5 py-4 border border-[#2a2a2a] bg-[#0f0f0f] text-white rounded-lg text-base focus:outline-none focus:border-[#ff6b35] transition-colors placeholder:text-gray-500"
+                className="w-full px-5 py-4 border border-[#2d2f47] bg-[#14141f] text-white rounded-lg text-base focus:outline-none focus:border-[#8b5cf6] transition-colors placeholder:text-gray-500"
               />
               <input
                 type="email"
                 placeholder="Your Email"
-                className="w-full px-5 py-4 border border-[#2a2a2a] bg-[#0f0f0f] text-white rounded-lg text-base focus:outline-none focus:border-[#ff6b35] transition-colors placeholder:text-gray-500"
+                className="w-full px-5 py-4 border border-[#2d2f47] bg-[#14141f] text-white rounded-lg text-base focus:outline-none focus:border-[#8b5cf6] transition-colors placeholder:text-gray-500"
               />
               <input
                 type="tel"
                 placeholder="Phone Number"
-                className="w-full px-5 py-4 border border-[#2a2a2a] bg-[#0f0f0f] text-white rounded-lg text-base focus:outline-none focus:border-[#ff6b35] transition-colors placeholder:text-gray-500"
+                className="w-full px-5 py-4 border border-[#2d2f47] bg-[#14141f] text-white rounded-lg text-base focus:outline-none focus:border-[#8b5cf6] transition-colors placeholder:text-gray-500"
               />
-              <select className="w-full px-5 py-4 border border-[#2a2a2a] bg-[#0f0f0f] text-gray-400 rounded-lg text-base focus:outline-none focus:border-[#ff6b35] transition-colors">
+              <select className="w-full px-5 py-4 border border-[#2d2f47] bg-[#14141f] text-gray-400 rounded-lg text-base focus:outline-none focus:border-[#8b5cf6] transition-colors">
                 <option>Your Niche</option>
                 <option>Fitness Coach</option>
                 <option>Nutrition Coach</option>
@@ -495,11 +495,11 @@ export default function Home() {
               <textarea
                 rows={4}
                 placeholder="Tell us about your current situation and goals..."
-                className="w-full px-5 py-4 border border-[#2a2a2a] bg-[#0f0f0f] text-white rounded-lg text-base focus:outline-none focus:border-[#ff6b35] transition-colors placeholder:text-gray-500"
+                className="w-full px-5 py-4 border border-[#2d2f47] bg-[#14141f] text-white rounded-lg text-base focus:outline-none focus:border-[#8b5cf6] transition-colors placeholder:text-gray-500"
               />
               <button
                 type="submit"
-                className="w-full bg-[#ff6b35] hover:bg-[#ff8555] text-white px-10 py-4 rounded-lg text-lg font-semibold transition-all duration-300 shadow-xl shadow-[#ff6b35]/20 hover:shadow-2xl hover:shadow-[#ff6b35]/30 hover:scale-105"
+                className="w-full bg-[#8b5cf6] hover:bg-[#a78bfa] text-white px-10 py-4 rounded-lg text-lg font-semibold transition-all duration-300 shadow-xl shadow-[#8b5cf6]/20 hover:shadow-2xl hover:shadow-[#8b5cf6]/30 hover:scale-105"
               >
                 Claim Your Free Strategy Session
               </button>
