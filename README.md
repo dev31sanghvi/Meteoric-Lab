@@ -5,7 +5,7 @@ A modern, conversion-focused landing page for a fitness coaching business that h
 ## 🎯 Features
 
 - **Bold, Conversational Copywriting** - Human-centered messaging that connects with fitness, nutrition, yoga, and biohacking coaches
-- **Light Theme Design** - Clean, professional appearance with orange accent colors
+- **Dark Theme Design** - Modern, professional appearance with purple/violet gradient accent colors
 - **Comprehensive Services Overview** - Details on micro-niche identification, offer creation, and coaching ecosystem setup
 - **Clear Process Timeline** - 5-step roadmap from niche discovery to scaling (30-60 days)
 - **Performance-Based Pricing** - Transparent setup fee + revenue share model with 100% ROI guarantee
@@ -73,10 +73,11 @@ Meteoric-Lab/
 ## 🎨 Customization
 
 ### Colors
-The primary accent color (orange) can be modified in `app/page.tsx`. Look for classes like:
-- `bg-orange-500` (backgrounds)
-- `text-orange-500` (text)
-- `border-orange-200` (borders)
+The color theme uses a purple/violet gradient palette. Colors can be modified in `app/globals.css` and `app/page.tsx`:
+- **CSS Variables** in `globals.css`: `--accent: #8b5cf6`, `--accent-secondary: #3b82f6`
+- **Gradient Classes**: `from-[#8b5cf6] to-[#3b82f6]` (purple to blue gradient)
+- **Background**: `#0f0f1a` (dark navy)
+- **Card Backgrounds**: `#1a1b2e` (navy charcoal)
 
 ### Content
 All copy is in `app/page.tsx`. Edit the text directly to customize:
