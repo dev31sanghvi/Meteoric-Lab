@@ -11,6 +11,17 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'card-bg': "var(--card-bg)",
+        'border-color': "var(--border)",
+        'accent': "var(--accent)",
+        'accent-hover': "var(--accent-hover)",
+        'accent-secondary': "var(--accent-secondary)",
+        'gradient-from': "var(--gradient-from)",
+        'gradient-to': "var(--gradient-to)",
+      },
+      fontFamily: {
+        'sans': ['Inter', 'system-ui', 'sans-serif'],
+        'heading': ['Sora', 'Inter', 'sans-serif'],
       },
     },
   },
